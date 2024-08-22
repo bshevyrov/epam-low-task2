@@ -41,12 +41,12 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
+//             steps {
                 // Deploy to a server or container
                 // Example: Deploy with Docker
 //                 sh 'docker build -t my-spring-boot-app .'
 //                 sh 'docker run -d -p 8080:8080 my-spring-boot-app'
-            }
+//             }
         }
     }
 
