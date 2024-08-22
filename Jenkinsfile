@@ -31,10 +31,10 @@ pipeline {
 
         stage('SonarQube Analysis') {
             environment {
-                scannerHome = tool 'SonarScanner'  // Refer to the name you gave SonarScanner
+                scannerHome = tool 'SonarQube Scanner 6.1.0.4477'  // Refer to the name you gave SonarScanner
             }
             steps {
-                withSonarQubeEnv('SonarQube') {  // Refer to the name you gave the SonarQube server
+                withSonarQubeEnv('SonarQube Scanner') {  // Refer to the name you gave the SonarQube server
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
