@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven 3.8.4'  // Ensure Maven is installed and configured
-        jdk 'JDK 11'  // Ensure JDK is installed and configured
+        jdk 'JDK 17'  // Ensure JDK is installed and configured
     }
 
     stages {
