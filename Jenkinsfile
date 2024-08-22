@@ -34,7 +34,7 @@ pipeline {
                 scannerHome = tool 'SonarQube Scanner'  // Refer to the name you gave SonarScanner
             }
             steps {
-                withSonarQubeEnv('SonarQube Scanner') {  // Refer to the name you gave the SonarQube server
+                withSonarQubeEnv('sonar qube server') {  // Refer to the name you gave the SonarQube server
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
