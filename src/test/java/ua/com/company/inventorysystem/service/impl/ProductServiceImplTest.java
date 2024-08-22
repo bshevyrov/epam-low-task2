@@ -7,7 +7,6 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import ua.com.company.inventorysystem.model.Product;
 import ua.com.company.inventorysystem.repository.ProductRepository;
-import ua.com.company.inventorysystem.service.ProductService;
 
 import java.util.Arrays;
 import java.util.List;

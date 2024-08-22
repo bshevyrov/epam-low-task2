@@ -1,12 +1,12 @@
 package ua.com.company.inventorysystem.controller;
 
 
-import ua.com.company.inventorysystem.model.Product;
-import ua.com.company.inventorysystem.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import ua.com.company.inventorysystem.model.Product;
+import ua.com.company.inventorysystem.service.ProductService;
 
 import java.util.List;
 

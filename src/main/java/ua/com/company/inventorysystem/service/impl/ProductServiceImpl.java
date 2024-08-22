@@ -1,10 +1,10 @@
 package ua.com.company.inventorysystem.service.impl;
 
 
-import ua.com.company.inventorysystem.model.Product;
-import ua.com.company.inventorysystem.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ua.com.company.inventorysystem.model.Product;
+import ua.com.company.inventorysystem.repository.ProductRepository;
 import ua.com.company.inventorysystem.service.ProductService;
 
 import java.util.List;
