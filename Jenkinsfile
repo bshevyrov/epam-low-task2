@@ -24,7 +24,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run tests and generate reports
-                sh 'mvn test'
+                sh 'mvn test jacoco:report'
                 junit '**/target/surefire-reports/*.xml'
             }
         }
