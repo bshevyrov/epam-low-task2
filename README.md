@@ -61,3 +61,11 @@ mvn spring-boot:run
 
 
 [chat.html](chat.html)
+
+
+## Feedback
+- The task was essentially simple.
+- 6 hour
+- The code was almost usable, I just tweaked it a bit and added a configuration
+- I struggled with CI/CD environment
+- Create a list of tasks with examples of prompts I can ask you for each task to get relevant examples. 
